@@ -65,19 +65,25 @@
 }
 
 @media(max-width:991px) {
-    .inicio, .pilar {
-       
-        margin-right: 10%;
+    .inicio {
+        text-align: center;
+        align-items: center;
+        margin-right: 8%;
+        margin-left: 1%;
     }
+
+    .article-inicio h1{
+        font-size:2.2rem;
+        font-weight: 600;
+        color:var(--color-text);
+    }
+    
 
     .article-inicio {
         min-width: 400px;
     }
 
-    .article-2{
-       
-        margin-left: 0%;
-      }
+   
 }
 
 @media(max-width:850px) {
