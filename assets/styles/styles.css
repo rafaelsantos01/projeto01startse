@@ -143,7 +143,7 @@ body{
 
 .planilha-download {
     display: block;
-    max-width: 400px;
+    max-width: 200px;
     padding: 15px;
     border: 1px solid var(--corDetalhe);
     border-radius: 6px;
