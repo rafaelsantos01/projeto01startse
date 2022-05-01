@@ -80,6 +80,11 @@
     .buttons-home {
         margin-left: 5%;
     }
+    .planilha-download {
+        font-size: 1.2rem;
+        max-width: 150px;
+        padding: 5px;
+    }
 
     .article-inicio {
         min-width: 400px;
@@ -102,15 +107,20 @@
     html {
         font-size: 80%;
     }
-
+    .planilha-download {
+        font-size: 1.0rem;
+        max-width: 100px;
+        padding: 5px;
+    }
     
 }
 
 @media(max-width: 470px) {
   
-    .btns-project {
-        margin-top: 30px;
-        flex-wrap: wrap;
+    .planilha-download {
+        font-size: 1.0rem;
+        max-width: 100px;
+        padding: 5px;
     }
     
 
@@ -133,8 +143,7 @@
     .planilha-download {
         max-width: 100px;
         padding: 15px;
-        font-weight: 100;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .article-inicio p {
         font-size: 1.1rem;
