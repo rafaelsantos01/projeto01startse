@@ -143,7 +143,7 @@ body{
 
 .planilha-download {
     display: block;
-    max-width: 200px;
+    max-width: 300px;
     padding: 15px;
     border: 1px solid var(--corDetalhe);
     border-radius: 6px;
@@ -219,7 +219,7 @@ body{
     background-color: #232325;
     color: #f1eded;
     text-align: center;
-    
+    margin-top: 5%;
   }
 
 
@@ -243,8 +243,8 @@ li {
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-    max-width: 60%;
-    margin-left: 25%;
+    max-width: 50%;
+     margin: 0 auto;
     margin-bottom: 4%;
 }
 
