@@ -15,6 +15,6 @@ O site é composto por quatro seções:
 **Dicas**: Nesta seção tem algumas dicas breves para dar os primeiros passos para liberade financeira.
 
 ## :hammer: Integrantes do Grupo
-| ![Rafael P. Santos](https://avatars.githubusercontent.com/u/83642989 =150x150) | ![Lorrany Haenchen Vasques](https://avatars.githubusercontent.com/u/103539875 =150x150) | ![Cristina Sarôa](https://avatars.githubusercontent.com/u/104031978 =150x150) |
+| ![Rafael P. Santos](https://financeonebrasil.netlify.app/assets/img/rafael.jpg) | ![Lorrany Haenchen Vasques](https://financeonebrasil.netlify.app/assets/img/lorrany.jpg) | ![Cristina Sarôa](https://financeonebrasil.netlify.app/assets/img/cristina.jpg) |
 |:--:|:--:|:--:|
 | [Rafael P. Santos](https://github.com/rafaelsantos01) | [Lorrany Haenchen Vasques](https://github.com/lorranyvasques) | [Cristina Sarôa](https://github.com/CristinaSaroa) |
