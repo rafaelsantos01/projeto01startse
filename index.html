@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance One Brasil</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="stylesheet" href="./assets/styles/mobile.css">
     <link rel="stylesheet" href="./assets/styles/menu.css">
-    <link rel="icon" type="image/png" href="./assets/img/cifrao.png">
-    
-    <title>Finance One Brasil</title>
+	<link rel="icon" type="image/png" href="./assets/img/cifrao.png">
 </head>
-<body>
-  <header id="header" class="header2">
-    <a id="logo menu" href="">Finance One Brasil</a>
+<body id="inicio">
+  <header id="header">
+    <a id="logo menu" href="#">Finance One Brasil</a>
     <nav id="nav">
-      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+      <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
         <span id="hamburger"></span>
       </button>
       <ul id="menu" role="menu">
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#informacoes">informações</a></li>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#informacoes">Informações</a></li>
         <li><a href="#pilares">Pilares</a></li>
-        <li><a href="#dicas">Dicas</a></li>
+        <li><a href="#solucoes">Soluções</a></li>
         <label class="switch">
           <span class="switch-text"><i class="fa-solid fa-moon"></i></span>
           <div class="switch-wrapper">
-              <input type="checkbox" id="switch" >
+              <input id="switch" type="checkbox">
               <span class="switch-button"></span>
           </div>
       </label> 
@@ -34,33 +33,26 @@
     </nav>
   </header>
 
-   
-
-
-     <main>
-        
-        <section id="inicio" class="inicio">
+    <main>
+        <section class="inicio">
           <article class="article-inicio">
-              <spam class="spam-inicio">Você já deu seu primeiro passo!</spam>
-              <h1 class="">
-                Hora de <span class="detalhe"> transformar</span> suas finanças.
+              <span class="span-inicio slide-left">Você já deu seu primeiro passo!</span>
+              <h1 class="slide-left">
+                Hora de <span class="detalhe">transformar</span> suas finanças.
               </h1>
-
-              <p>"Jamais gaste seu dinheiro antes de você possuí-lo."</p>
-              
-                  
-              <div class="buttons-home ">
-                <a class="planilha-download" href="https://files.guide.com.br/2021/Blog/Textos/01%20-%20Janeiro/Planilha%20de%20gastos%20e%20renda%20-%20pessoal.xlsx?_ga=2.143556534.2012178504.1651450729-387811844.1651450728"><i class="fa-solid fa-cloud-arrow-down"></i>Download Planilha</a>
-                <a class="planilha-download" href="https://play.google.com/store/apps/details?id=br.com.gerenciadorfinanceiro.controller&hl=pt_BR&gl=US"><i class="fa-solid fa-cloud-arrow-down"></i>Download Aplicativo</a>
+              <p class="slide-left">"Jamais gaste seu dinheiro antes de você possuí-lo."</p>     
+              <div class="buttons-home slide-left">
+                <a class="btn-planilha-download" href="https://files.guide.com.br/2021/Blog/Textos/01%20-%20Janeiro/Planilha%20de%20gastos%20e%20renda%20-%20pessoal.xlsx?_ga=2.143556534.2012178504.1651450729-387811844.1651450728" target="_blank"><i class="fa-solid fa-cloud-arrow-down"></i>Download Planilha</a>
+                <a class="btn-planilha-download" href="https://play.google.com/store/apps/details?id=br.com.gerenciadorfinanceiro.controller&hl=pt_BR&gl=US" target="_blank"><i class="fa-solid fa-cloud-arrow-down"></i>Download Aplicativo</a>
               </div>
           </article>
-          <img class="img-inicio" src="./assets/img/imagem.svg" alt=" ">
+          <img class="img-inicio slide-right" src="./assets/img/imagem.svg">
       </section>
 
       <section id="informacoes" class="informacoes">
-        <img class="img-informacoes" src="./assets/img/meninadinheiro.svg" alt="">
+        <img class="img-informacoes" src="./assets/img/menina-dinheiro.svg">
         <article class="article-informacoes">
-          <div  class="texto">
+          <div class="texto">
             <h2>O que é controle financeiro pessoal?</h2>
             <p>
               Controlar as finanças pessoais é gerenciar o dinheiro que entra e que sai das suas contas. 
@@ -69,7 +61,7 @@
                 Geralmente esse controle é mensal, considerando tanto as contas fixas quanto as despesas gerais. Esse é um hábito importante porque muitas pessoas não sabem quanto ganham e quanto gastam por mês, e essa é a principal razão do descontrole financeiro.
             </p>
           </div>
-          <div  class="texto">
+          <div class="texto">
             <h2>Você sabe quanto ganha e quanto gasta?</h2>
             <p>
               Por incrível que pareça, muitas pessoas não sabem exatamente o quanto ganham e quanto gastam mensalmente.
@@ -77,19 +69,16 @@
               Esse é o caminho ideal para quem quer poupar, fazer planos de crescimento e prezar pela saúde financeira.
             </p>
           </div>
-          <div  class="texto">
+          <div class="texto">
             <h2>Por que gerenciar seu dinheiro?</h2>
             <p>
               A partir do momento em que você visualiza os seus gastos, torna-se mais fácil saber quando é possível aumentar as despesas ou reduzi-las.
               Baixe a planilha e visualize onde você gasta seu dinheiro! 
             </p>
           </div>
-
         </article>
-        
       </section>
 
-        
           <section id="pilares" class="pilar">
             <article class="article-pilar">
                 <h2>Pilares Importantes</h2>
@@ -120,38 +109,38 @@
                 <br>
 
             </article>
-              <img class="img-pilar" src="./assets/img/meninopilar.svg" alt="">
+              <img class="img-pilar" src="./assets/img/menino-pilar.svg">
           </section>
 
-          <section id="dicas" class="dicas">
+          <section id="informacoes" class="dicas">
             <article class="article-dicas">
-              <div  class="texto-dicas">
+              <div class="texto-dicas">
                 <h2>Dicas para colocar em prática</h2>
                 <ul>
-                  <li class="itens"> Não gaste mais do que ganha;</li>
-                  <li class="itens"> Tenha um planejamento financeiro;</li>
-                  <li class="itens"> Pense no futuro com cuidado e planejamento;</li>
-                  <li class="itens"> Saiba priorizar os gastos;</li>
-                  <li class="itens"> Se resguarde frente a possíveis imprevistos;</li>
-                  <li class="itens"> Invista mensalmente;</li>
-                  <li class="itens"> O estudo é algo que ninguém pode tirar de você!</li>
+                  <li class="itens">Não gaste mais do que ganha;</li>
+                  <li class="itens">Tenha um planejamento financeiro;</li>
+                  <li class="itens">Pense no futuro com cuidado e planejamento;</li>
+                  <li class="itens">Saiba priorizar os gastos;</li>
+                  <li class="itens">Se resguarde frente a possíveis imprevistos;</li>
+                  <li class="itens">Invista mensalmente;</li>
+                  <li class="itens">O estudo é algo que ninguém pode tirar de você!</li>
                 </ul>
               </div>
             </article>
           </section>
 
-    </main> 
+    </main>
   
   <section class="copy">
-    <a  href="index.html"><img class="voltarinicio" src="./assets/img/arrow.webp" alt=""></a> 
+    <a href="#inicio"><img src="./assets/img/arrow.webp" class="voltar-inicio"></a> 
     <div>
       <h5 class="volta">Voltar para incio</h5> 
     </div>
-    <div>
+    <p class="copy-names">
       &copy; 2022 - Rafael Pereira Dos Santos |
       &copy; 2022 - Lorrany Haendchen Vasques |
-      &copy; 2022 - Cristina Sarôa |
-    </div>
+      &copy; 2022 - Cristina Sarôa
+    </p>
     
   </section>
   <!-- Acessibilidade no site-->
@@ -165,11 +154,10 @@
     <script>
       new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
-    <!-- Scripts -->
+    <script src="./assets/scripts/scrollreveal.js"></script>
     <script src="./assets/scripts/script.js"></script>
-    <script src="./assets/scripts/configScrol.js"></script>
-    <script src="./assets/scripts/darkMode.js"></script>
-    <script src="./assets/scripts/configScrol.js"></script>
+    <script src="./assets/scripts/config-scroll.js"></script>
+    <script src="./assets/scripts/dark-mode.js"></script>
     <script src="https://kit.fontawesome.com/c0989ead5b.js" crossorigin="anonymous"></script>
 </body>
 </html>

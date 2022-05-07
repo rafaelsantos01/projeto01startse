@@ -1,4 +1,4 @@
-@media(max-width:1200px) {
+@media(max-width: 1200px) {
     .inicio, .pilar, .dicas {
         flex-direction: column-reverse;
         align-items: center;
@@ -42,8 +42,8 @@
         text-align: center;
     }
     .texto, .dicas{
-        margin-right:calc(2%);
-        margin-left:calc(2%) ;
+        margin-right: calc(2%);
+        margin-left: calc(2%) ;
     }
 
    
@@ -64,7 +64,7 @@
      
 }
 
-@media(max-width:991px) {
+@media(max-width: 991px) {
     .inicio {
         text-align: center;
         align-items: center;
@@ -80,7 +80,7 @@
     .buttons-home {
         margin-left: 5%;
     }
-    .planilha-download {
+    .btn-planilha-download {
         font-size: 1.2rem;
         max-width: 150px;
         padding: 5px;
@@ -93,7 +93,7 @@
    
 }
 
-@media(max-width:850px) {
+@media(max-width: 850px) {
     .img-inicio, .img-pilar {
         max-width: 70%;
     }
@@ -103,11 +103,11 @@
     }
 }
 
-@media(max-width:600px) {
+@media(max-width: 600px) {
     html {
         font-size: 80%;
     }
-    .planilha-download {
+    .btn-planilha-download {
         font-size: 1.0rem;
         max-width: 100px;
         padding: 5px;
@@ -116,15 +116,11 @@
 }
 
 @media(max-width: 470px) {
-  
-    .planilha-download {
+    .btn-planilha-download {
         font-size: 1.0rem;
         max-width: 100px;
         padding: 5px;
     }
-    
-
-    
 }
 
 
@@ -136,11 +132,8 @@
     .img-informacoes{
         max-width: 60%;
     }
-    .btns-project {
-       margin: 0;
-    }
 
-    .planilha-download {
+    .btn-planilha-download {
         max-width: 100px;
         padding: 15px;
         font-size: 1.3rem;
@@ -151,5 +144,3 @@
        
     }
 }
-
-
