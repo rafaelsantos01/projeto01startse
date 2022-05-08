@@ -9,10 +9,10 @@ Hackathon 34 - StarSe
 
 ## :newspaper: Seções
 O site é composto por quatro seções:
-**Início**: Nesta seção está a apresentação e a ideia do site;
-**Informações**: Nessa seção é composta por apresentação do projeto e existe algumas informações para quem busca controle financeiro;
-**Pilares**: Selecionamos alguns pilares que discutimos e achamos importantes pra quem busca uma melhora financeira;
-**Blog**: Nesta seção tem algumas dicas para dar os primeiros passos para liberade financeira.
+**Início**: Nesta seção está a apresentação do site;
+**Informações**: Esta seção é composta por apresentação do projeto e algumas informações sobre controle financeiro;
+**Pilares**: Selecionamos alguns pilares que discutimos e achamos importantes para quem busca melhorar a sua vida financeira;
+**Blog**: Esta seção contém algumas dicas interessantes sobre como ficar atendo(a) as armadilhas do golpe com o pix dentre outras dicas.
 
 ## :hammer: Integrantes do Grupo
 | ![Rafael P. Santos](https://financeonebrasil.netlify.app/assets/img/rafael.jpg) | ![Lorrany Haenchen Vasques](https://financeonebrasil.netlify.app/assets/img/lorrany.jpg) | ![Cristina Sarôa](https://financeonebrasil.netlify.app/assets/img/cristina.jpg) |
