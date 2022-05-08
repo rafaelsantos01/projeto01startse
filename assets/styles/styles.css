@@ -114,7 +114,7 @@ label{
 body{
     background-color:var(--background-color);
     color:var(--color-text);
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-family: 'DM Sans', sans-serif;
 }
 
 /* seção início */
@@ -232,7 +232,6 @@ body{
     background-color: var(--corDetalhe);
     padding: 15px;
     margin: 15px;
-    background-image: url(../img/bg-card.jpg);
     background-size: cover;
 }
 
@@ -272,6 +271,7 @@ body{
 .informacoes{
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 
 .img-informacoes{
@@ -283,7 +283,7 @@ body{
 }
 
 .article-informacoes {
-    padding: 70px 40px 0 0;
+    padding: 70px 40px;
 }
 
 .texto-informacoes {
@@ -350,3 +350,4 @@ section .dicas{
 .copy-names{
     padding-bottom: 12px;
 }
+

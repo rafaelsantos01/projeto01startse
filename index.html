@@ -8,11 +8,16 @@
   <link rel="stylesheet" href="./assets/styles/styles.css">
   <link rel="stylesheet" href="./assets/styles/mobile.css">
   <link rel="stylesheet" href="./assets/styles/menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="./assets/img/favicon.png">
 </head>
-<body id="inicio">
+
+<body>
+
   <header id="header">
-    <a class="logo" href="#inicio">
+    <a class="logo" href="#">
       <img class="img-logo" src="./assets/img/logo.png">
       <span class="logo-text">Finance One Brasil</span>
     </a>
@@ -21,7 +26,7 @@
         <span id="hamburger"></span>
       </button>
       <ul id="menu" role="menu">
-        <li><a href="#inicio">Início</a></li>
+        <li><a href="#inicioSite">Início</a></li>
         <li><a href="#informacoes">Informações</a></li>
         <li><a href="#pilares">Pilares</a></li>
         <li><a href="#blog">Blog</a></li>
@@ -37,8 +42,8 @@
   </header>
 
     <main>
-        <section class="inicio">
-          <article class="article-inicio">
+        <section id="inicioSite" class="inicio">
+          <article  class="article-inicio">
               <span class="span-inicio slide-left">Você já deu seu primeiro passo!</span>
               <h1 class="slide-left">
                 Hora de <span class="detalhe">transformar</span> suas finanças.
@@ -157,7 +162,8 @@
     </main>
 
   <section class="copy">
-    <a href="#inicio"><img src="./assets/img/arrow.webp" class="voltar-inicio"></a> 
+    
+     <a href="#inicioSite"><img src="./assets/img/arrow.webp" class="voltar-inicio"></a>  
     <div>
       <h5 class="volta">Voltar para início</h5> 
     </div>
@@ -168,6 +174,10 @@
     </p>
     
   </section>
+
+
+
+
   <!-- Acessibilidade no site-->
   <div vw class="enabled">
       <div vw-access-button class="active"></div>

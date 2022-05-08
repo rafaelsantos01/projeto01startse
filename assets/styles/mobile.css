@@ -32,6 +32,8 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        
+        
     }
     .texto, .dicas{
         margin-right: calc(2%);
@@ -100,7 +102,7 @@
         font-size: 80%;
     }
     .btn-planilha-download {
-        font-size: 1.0rem;
+        
         max-width: 100px;
         padding: 5px;
     }
@@ -108,7 +110,7 @@
 
 @media(max-width: 470px) {
     .btn-planilha-download {
-        font-size: 1.0rem;
+       
         max-width: 100px;
         padding: 5px;
     }
@@ -124,7 +126,7 @@
     .btn-planilha-download {
         max-width: 100px;
         padding: 15px;
-        font-size: 1.3rem;
+       
     }
     .article-inicio p {
         font-size: 1.1rem;
