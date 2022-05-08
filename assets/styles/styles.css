@@ -13,6 +13,14 @@ html, body{
     --background-color:#fff;
 }
 
+/* FONTS */
+h2{
+    margin-bottom: 7px;
+}
+h3{
+    margin-bottom: 5px;
+}
+
 .dark-mode:root{
     --corDetalhe: rgb(57, 255, 20);
     --color-text: rgb(233, 230, 230);
@@ -26,6 +34,10 @@ html, body{
   
 ::-webkit-scrollbar-track {
     background-color: #f1eded;
+}
+
+.dark-mode ::-webkit-scrollbar-track {
+    background-color: #000;
 }
   
 ::-webkit-scrollbar-thumb {
@@ -81,11 +93,17 @@ html, body{
 }
 
 .switch .switch-wrapper input:checked + .switch-button{
-    background-color: #68a721;
+    background-color: var(--corDetalhe);
 }
 
 .switch .switch-wrapper input:checked + .switch-button::before{
     transform: translateX(28px);
+}
+
+.icon-moon{
+    position: relative;
+    top: 2px;
+    left: 1px;
 }
 
 label{
@@ -100,15 +118,18 @@ body{
 }
 
 /* seção início */
-.inicio, .pilar {
+.inicio {
     display: flex;
-    padding: 140px 40px 70px 40px;
+    padding: 140px 40px 0px 40px;
+}
+.pilar {
+    display: flex;
+    padding: 0 40px 40px 40px;
 }
 
 .article-inicio {
     width: 70%;
-    margin-top: 10%;
-    margin-left: 4%;
+    margin: 10% 4%;
 }
 
 .span-inicio {
@@ -124,7 +145,7 @@ body{
 }
 
 .article-inicio h1 span {
-    color: red;
+    color: var(--corDetalhe);
 }
 
 .article-inicio p {
@@ -142,7 +163,7 @@ body{
 .btn-planilha-download {
     display: block;
     max-width: 400px;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid var(--corDetalhe);
     border-radius: 6px;
     color:var(--corDetalhe);
@@ -167,7 +188,7 @@ body{
     bottom: 40px;
     right: 80px;
     max-width: 40%;
-    animation: moveUndraw 3.7s infinite alternate-reverse linear;
+    padding-bottom: 0%;
 }
 
 .img-inicio2 {
@@ -177,22 +198,95 @@ body{
     right: 80px;
     max-width: 25%;
     margin-left: 4%;
-    animation: moveUndraw 3.7s infinite alternate-reverse linear;
 }
 
 .detalhe {
     color: var(--corDetalhe);
 }
 
+#blog{
+    min-height: 80vh;
+}
+
+.dark-mode #blog{
+    background-image: url(../img/bg-card-dark.jpg);
+    background-size: cover;
+}
+
+.block-cards{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-wrap:wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+.block-cards .card{
+    float: left;
+    width: calc(100% * (1/3));
+}
+.block-cards .card-inner{
+    border-radius: 10px;
+    border:  2px solid var(--corDetalhe);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    background-color: var(--corDetalhe);
+    padding: 15px;
+    margin: 15px;
+    background-image: url(../img/bg-card.jpg);
+    background-size: cover;
+}
+
+.dark-mode .block-cards .card-inner{
+    background-image: none;
+    background-color: var(--background-color);
+}
+
+.btn-saiba-mais{
+    display: block;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0px solid black;
+    text-align: center;
+}
+.btn-saiba-mais:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #fff03d;
+}
+
+.dark-mode .btn-saiba-mais{
+    background-color: var(--corDetalhe);
+    color: #000;
+}
+
+.dark-mode .btn-saiba-mais:hover{
+    background-color: #fff03d;
+}
+
+.informacoes{
+    display: flex;
+    align-items: center;
+}
+
 .img-informacoes{
     display: inline-block;
     position:relative;
-    max-width: 23%;
+    max-width: 35%;
     margin-left: 4%;
-    padding: 70px 40px;
+    padding: 40px 70px 40px 70px;
 }
 
-.texto {
+.article-informacoes {
+    padding: 70px 40px 0 0;
+}
+
+.texto-informacoes {
     margin-top:2% ;
     padding: 30px 20px;
     box-sizing: border-box;
@@ -200,17 +294,6 @@ body{
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-    margin-right:calc(5%);
-    margin-left:calc(20%);
-}
-
-.article-informacoes {
-    padding: 70px 40px;
-}
-
-.informacoes{
-    display: flex;
-    align-items: center;
 }
 
 .copy{
@@ -224,7 +307,7 @@ body{
 }
 
 .itens:before {
-    content: "★";
+    content: "";
 }
 
 li {
@@ -261,5 +344,9 @@ section .dicas{
 }
 
 .volta{
-    color: #68a721;
+    color: var(--corDetalhe);
+}
+
+.copy-names{
+    padding-bottom: 12px;
 }
